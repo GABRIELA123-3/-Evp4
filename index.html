@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arte y Diseño</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Carrusel -->
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="imagenes/img1 carrusel.avif" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imagenes/img2 carrusel.avif" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="imagenes/img3 carrusel.avif" class="d-block w-100" alt="...">
+      </div>
+      <style>
+        .carousel-item img {
+          max-height: 400px; /* Ajusta la altura máxima según lo que desees */
+          object-fit: cover; /* Recorta la imagen sin deformarla */
+          
+        }
+      </style>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Arte & Diseño</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#galeria">Galería</a></li>
+          <li class="nav-item"><a class="nav-link" href="#artistas">Artistas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección de Bienvenida -->
+  <div class="container text-center my-5" id="inicio">
+    <h1>Explora el mundo del arte y el diseño</h1>
+    <p class="lead">El arte se considera más subjetivo y personal, mientras que el diseño se rige por principios más objetivos y funcionales.
+         El arte puede ser interpretado de diferentes maneras por cada espectador, mientras que el diseño busca transmitir un mensaje claro y conciso.</p>
+    <a href="#galeria" class="btn btn-primary">Ver Galería</a>
+  </div>
+
+  <!-- Galería -->
+  <div class="container my-5" id="galeria">
+    <h2 class="text-center mb-4">Galería de Obras</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="imagenes/img 1 galeria.avif" class="card-img-top" alt="Obra 1">
+          <div class="card-body">
+            <h5 class="card-title">Obra 1</h5>
+            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, obcaecati aspernatur! Officiis 
+                exercitationem repellendus earum, aut praesentium veritatis qui ea, numquam eveniet corporis porro quasi facilis dolores
+                 minima sequi reprehenderit..</p>
+            <a href="#" class="btn btn-secondary">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="imagenes/img2 galeria.avif" class="card-img-top" alt="Obra 2">
+          <div class="card-body">
+            <h5 class="card-title">Obra 2</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, rem? Explicabo vel itaque aliquam,
+                 asperiores iste nobis similique repellat cupiditate, minima eius fuga beatae adipisci ea facilis quos, sed error!.</p>
+            <a href="#" class="btn btn-secondary">Ver más</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="imagenes/img 3 galeria.avif" class="card-img-top" alt="Obra 3">
+          <div class="card-body">
+            <h5 class="card-title">Obra 3</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo laborum, doloremque, quia et animi adipisci
+                 reprehenderit porro sit dolores quod obcaecati! Tempora eveniet commodi quos! Quisquam id iure laborum possimus..</p>
+            <a href="#" class="btn btn-secondary">Ver más</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sección de Artistas -->
+  <!-- Sección de Artistas -->
+  <div class="container my-5" id="artistas">
+    <h2 class="text-center mb-4">Conoce a los Artistas</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <h4>Artista 1</h4>
+        <img src="imagenes/artista1.jpg" class="img-thumbnail" alt="Obra 3">
+        <hr>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis non distinctio explicabo facilis doloremque quam minima 
+            nemo dolor obcaecati. Blanditiis unde distinctio quibusdam saepe ea eum enim impedit, iste quia..</p>
+      </div>
+      <div class="col-md-6">
+        <h4>Artista 2</h4>
+        <img src="imagenes/artista2.png" class="img-thumbnail" alt="Obra 3">
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, error inventore nulla distinctio cupiditate excepturi maxime 
+            provident, maiores vitae dolore incidunt minus praesentium aut sit eveniet nostrum voluptatum hic ipsam!.</p>
+      </div>
+    </div>
+  </div
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3" id="contacto">
+    <p>© 2024 Arte & Diseño | Síguenos en redes sociales</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
